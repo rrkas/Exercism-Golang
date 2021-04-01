@@ -1,8 +1,7 @@
 // The bob package handles forming responses for Alice
-package main
+package bob
 
 import (
-	"fmt"
 	"regexp"
 	"strings"
 )
@@ -41,8 +40,4 @@ func Hey(remark string) string {
 	}
 
 	return "Whatever."
-}
-
-func main() {
-	fmt.Print(Hey("KKBKB?"))
 }
